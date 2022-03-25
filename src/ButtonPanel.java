@@ -19,7 +19,7 @@ public class ButtonPanel extends JPanel
   public ButtonPanel (ShapeIComponent shapeComponent)
   {
     this.shapeComponent = shapeComponent;
-    shapeNames = new String[]{Shape.RECTANGLE, Shape.OVAL, Shape.ARC}; // modify this if you add more shapes
+    shapeNames = new String[]{Shape.RECTANGLE, Shape.OVAL, Shape.ARC, Shape.LINE}; // modify this if you add more shapes
     
     // initialize the panel using the init() private helper method
     init();

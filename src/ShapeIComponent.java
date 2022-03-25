@@ -162,6 +162,10 @@ public class ShapeIComponent extends JComponent
       {
         currentShape = new Arc();
       }
+      else if(currShapeType.equals(Shape.LINE))
+      {
+        currentShape = new Line();
+      }
       
       // fill in point1 and point2 in the new shape
       currentShape.setPoint1Values(currX,currY);
